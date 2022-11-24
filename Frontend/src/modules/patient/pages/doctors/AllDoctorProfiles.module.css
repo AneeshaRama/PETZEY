@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    height: 5rem;
+    border-bottom: 1px solid gainsboro;
+}
+.right_header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0.2rem;
+    border-radius: 0.3rem;
+    width:15rem;
+    padding-left: 0.6rem;
+    position: relative;
+}
+.search_doctor_by_name{
+    position: absolute;
+    width: 15rem;
+    min-height: 2rem;
+    background-color: #fff;
+    right:0.04rem;
+    top: 2rem;
+    border-radius: 0.3rem;
+}
+.doctor_component_container{
+    padding:0.5rem 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}

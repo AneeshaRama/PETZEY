@@ -1,0 +1,35 @@
+.pet_details_container{
+    margin-top: 2rem;
+    min-height: 13rem;
+    background-color: white;
+    width: 55rem;
+    margin-left: 2rem;
+    border-radius: 0.4rem;
+}
+.pet_details_upper{
+    height:4.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+}
+.pet_details_upper_right{
+    width: 55rem;
+    border-bottom: 1px solid gainsboro;
+}
+.new_pet_button{
+    width: 5rem;
+    padding:0.5rem 0.7rem;
+    border: none;
+    border-radius: 0.3rem;
+    font-size: 0.6rem;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+    margin-right: 0.6rem;
+    color:white;
+    background-color: #fd3f00;
+    transition: 0.3s ease-in;
+}
+.new_pet_button:hover{
+    background-color: #dc2626;
+}

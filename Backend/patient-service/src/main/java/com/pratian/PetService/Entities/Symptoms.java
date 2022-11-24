@@ -1,0 +1,18 @@
+package com.pratian.PetService.Entities;
+
+import lombok.AllArgsConstructor;
+import lombok.Getter;
+import lombok.NoArgsConstructor;
+import lombok.Setter;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+public class Symptoms {
+
+    private long symptomId;
+
+    private String description;
+
+}

@@ -1,0 +1,35 @@
+server:
+  port: 8091
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka
+
+  instance:
+    hostname: localhost
+
+spring:
+  application:
+    name: APPOINTMENT-SERVICE
+
+  datasource:
+    url: jdbc:mysql://petzey-opteamix.mysql.database.azure.com:3306/AppointmentService?createDatabaseIfNotExist=true
+    username: petzey
+    password: Login@123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+swagger:
+  productionURL: https://appointment.cmd.skillassure.com/appointment
+
+rest:
+  settingService: http://SETTING-SERVICE/

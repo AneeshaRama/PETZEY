@@ -1,0 +1,25 @@
+.container{
+    display: flex;
+    width: 100vw;
+}
+.sidebar_container{
+    background-color: #053a5c;
+    min-height: 100vh;
+    width: 13.5vw;
+    padding: 1rem;
+}
+.navlinks_container{
+    margin-top: 1rem;
+    width: 10rem;
+    padding: 0.4rem;
+    border-radius: 0.4rem 0 0 0.4rem;
+
+}
+.navlinks{
+    font-size: 0.8rem;
+    color: white;
+    font-weight: 550;
+}
+.icons{
+    color:white !important;
+}

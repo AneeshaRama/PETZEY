@@ -1,0 +1,8 @@
+.container{
+    margin-top: 1rem;
+    border: 1px solid gainsboro;
+    width:19rem;
+    height: 6rem;
+    border-radius: 0.3rem;
+    padding: 1rem;
+}

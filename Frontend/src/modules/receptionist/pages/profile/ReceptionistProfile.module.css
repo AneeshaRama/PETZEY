@@ -1,0 +1,23 @@
+
+.account_details_lower{
+    height:6.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.account_details_lower_right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:6rem
+}
+.account_details_lower_left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width:49rem;
+    margin-left: 1rem;
+    padding:1rem;
+    font-size: 0.8rem;
+}

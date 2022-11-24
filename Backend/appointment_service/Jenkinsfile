@@ -1,0 +1,52 @@
+pipeline {
+      environment {
+        registry = "shrey21s/petzeyappointment"
+        registryCredential = "1"
+        dockerImage = ''
+    }
+    agent any
+
+    stages {
+
+        stage ('Artifacts') {
+            steps {
+                script{
+                    sh 'mvn clean install -DskipTests'
+                }  
+            }
+        }
+        stage('Sonarqube'){
+       steps{
+         echo "Sonarqube codequality"
+         sh '''
+          mvn clean verify sonar:sonar \
+            -Dsonar.projectKey=Petzey-Appointment \
+            -Dsonar.host.url=https://codequality.cmd.skillassure.com \
+            -Dsonar.login=sqp_aba3044106ff0469a75e31ab209db7253d645b4d
+         '''
+       }
+    }
+
+        stage ('Build Docker image') {
+            steps {
+                script{
+                    dockerImage = docker.build registry + ":$BUILD_NUMBER"
+                }  
+            }
+        }
+    stage('Push docker image'){
+      steps{
+        echo "Pushing docker image"
+        script{
+           docker.withRegistry('',registryCredential) {
+            dockerImage.push()
+            dockerImage.push('latest')
+                                }
+             }
+               }
+            } 
+
+    }
+
+
+}

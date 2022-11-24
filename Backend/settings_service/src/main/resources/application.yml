@@ -1,0 +1,12 @@
+server:
+  port: 8093
+
+spring:
+  application:
+    name: SETTING-SERVICE
+  profiles:
+    active: prod
+
+
+
+

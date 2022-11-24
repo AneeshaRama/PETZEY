@@ -1,0 +1,14 @@
+server:
+  port: 8092
+
+
+spring:
+  application:
+    name: PET-SERVICE
+  profiles:
+    active: prod
+
+
+
+
+

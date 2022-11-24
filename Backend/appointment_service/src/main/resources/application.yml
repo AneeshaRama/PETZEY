@@ -1,0 +1,9 @@
+server:
+  port: 8091
+
+spring:
+  application:
+    name: APPOINTMENT-SERVICE
+  profiles:
+    active: prod
+

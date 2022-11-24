@@ -1,0 +1,38 @@
+server:
+  port: 8093
+  servlet:
+    context-path: /settings
+
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: https://service.learn.skillassure.com/eurekaserver/eureka
+
+  instance:
+    preferIpAddress: true
+
+spring:
+  application:
+    name: SETTING-SERVICE
+
+  datasource:
+    url: jdbc:mysql://petzey-opteamix.mysql.database.azure.com:3306/SettingService?createDatabaseIfNotExist=true
+    username: petzey
+    password: Login@123
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+
+swagger:
+  productionURL: https://settings.learn.skillassure.com/settings
+
+rest:
+  appointmentService: https://appointments.learn.skillassure.com/appointment

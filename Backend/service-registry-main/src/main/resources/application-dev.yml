@@ -1,0 +1,18 @@
+server:
+  port: 8761
+  servlet:
+    context-path: /eurekaserver
+
+swagger:
+  url:
+     productionURL: https://service.learn.skillassure.com/eurekaserver
+
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
+    service-url:
+      defaultZone: https://service.learn.skillassure.com/eurekaserver/eureka
+  instance:
+    preferIpAddess: true

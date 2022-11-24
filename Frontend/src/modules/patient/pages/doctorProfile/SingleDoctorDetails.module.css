@@ -1,0 +1,27 @@
+.container{
+    height: 90vh;
+    width: 100%;
+    padding: 1rem
+}
+.doctor_details_container{
+    border-radius:0.3rem;
+    margin-top: 1rem;
+    width:45rem;
+    height:13rem;
+    background-color: white;
+}
+.top_header{
+    border-bottom: 1px solid gainsboro;
+    height: 3.5rem;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    padding:0 1rem;
+}
+.bottom_header{
+    height:9.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 1rem;
+}

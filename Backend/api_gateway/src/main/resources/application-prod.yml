@@ -1,0 +1,35 @@
+server:
+  port: 8095
+
+spring:
+  application:
+    name: API-ZUUL-GATEWAY
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: https://service.learn.skillassure.com/eurekaserver/eureka
+
+
+  instance:
+    preferIpAddress: true
+
+zuul:
+  routes:
+    SETTING-SERVICE:
+      path: /api/setting-service/**
+      url: https://settings.learn.skillassure.com/settings
+
+    PET-SERVICE:
+      path: /api/pet-service/**
+      url: https://patient.learn.skillassure.com/patient
+
+    APPOINTMENT-SERVICE:
+      path: /api/appointment-service/**
+      url: https://appointments.learn.skillassure.com/appointment
+
+    AUTH-SERVICE:
+      path: /api/auth-service/**
+      url: https://authentication.learn.skillassure.com

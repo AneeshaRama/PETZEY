@@ -1,0 +1,19 @@
+.modal_container{
+    top:40%;
+    left: 45%;
+    position: absolute;
+    background-color: white;
+    width:18rem;
+    height: 12rem;
+    border-radius: 0.3rem;
+    z-index: 20;
+    padding-top: 1rem;
+}
+.cancel_button{
+    position: absolute;    
+    right: 0.2rem;
+    top:0.4rem;
+    cursor: pointer;
+    padding-right:1rem;
+    font-size: 1.5rem;
+}

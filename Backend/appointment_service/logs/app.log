@@ -1,0 +1,1002 @@
+2022-02-23 15:14:31,037 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 14136 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 15:14:31,059 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 15:14:31,060 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 15:14:51,885 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 22.638 seconds (JVM running for 32.983)
+2022-02-23 15:16:19,638 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-1] Hello from Log4j 2 - num : {}
+2022-02-23 15:23:22,019 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 14136 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 15:23:22,020 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 15:23:22,021 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 15:23:25,917 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.531 seconds (JVM running for 547.015)
+2022-02-23 15:23:45,046 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-1] Getting total appointment Count : OutboundJaxrsResponse{status=200, reason=OK, hasEntity=true, closed=false, buffered=false}
+2022-02-23 15:31:45,370 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 14136 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 15:31:45,371 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 15:31:45,371 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 15:31:47,589 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 2.63 seconds (JVM running for 1048.687)
+2022-02-23 15:32:02,529 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-1] Get All Recomendation : Appointment doesnot exist
+2022-02-23 15:32:36,698 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-2] Get All Recomendation : Appointment doesnot exist
+2022-02-23 15:32:58,564 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-3] Get All Recomendation : succeeded
+2022-02-23 17:10:19,594 ERROR c.n.d.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457) [eureka-client-1.10.11.jar:1.10.11]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-23 17:10:48,313 ERROR c.n.d.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) ~[eureka-client-1.10.11.jar:1.10.11]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:395) ~[spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:141) ~[spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1105) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1074) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:171) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1020) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.4.3.jar:2.4.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[?:?]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[?:?]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[?:?]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[?:?]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[?:?]
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[?:?]
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[?:?]
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[?:?]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[?:?]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-23 17:35:20,050 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 20408 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 17:35:20,068 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 17:35:20,069 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 17:35:38,381 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 43.358 seconds (JVM running for 46.949)
+2022-02-23 17:38:48,557 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-6] Getting total appointment Count : 3
+2022-02-23 17:39:52,683 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-10] Get All Recomendation : Appointment doesnot exist
+2022-02-23 17:40:18,713 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-1] Get All Recomendation : succeeded
+2022-02-23 17:45:49,436 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 20408 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 17:45:49,437 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 17:45:49,438 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 17:45:53,239 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 5.772 seconds (JVM running for 661.807)
+2022-02-23 17:47:47,338 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-2] Getting total appointment Count : 3
+2022-02-23 17:55:56,798 ERROR c.n.d.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457) [eureka-client-1.10.11.jar:1.10.11]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-23 17:56:01,708 ERROR c.n.d.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) ~[eureka-client-1.10.11.jar:1.10.11]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:395) ~[spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:141) ~[spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1105) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1074) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:171) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1020) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.4.3.jar:2.4.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[?:?]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[?:?]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[?:?]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[?:?]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[?:?]
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[?:?]
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[?:?]
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[?:?]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[?:?]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-23 20:50:27,724 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 19376 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 20:50:27,735 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 20:50:27,735 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 20:50:37,244 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 10.843 seconds (JVM running for 13.23)
+2022-02-23 20:54:27,744 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 19376 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 20:54:27,745 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 20:54:27,745 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 20:54:29,185 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 1.719 seconds (JVM running for 245.171)
+2022-02-23 20:55:33,465 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 10612 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 20:55:33,471 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 20:55:33,472 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 20:55:39,109 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 6.205 seconds (JVM running for 7.65)
+2022-02-23 21:00:03,603 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 10612 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:00:03,604 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:00:03,604 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:00:05,027 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 1.7 seconds (JVM running for 273.568)
+2022-02-23 21:03:09,635 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16068 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:03:09,646 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:03:09,647 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:03:18,219 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 10.191 seconds (JVM running for 20.901)
+2022-02-23 21:36:46,901 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16068 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:36:46,901 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:36:46,901 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:36:48,302 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 1.668 seconds (JVM running for 2030.984)
+2022-02-23 21:37:19,193 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16068 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:37:19,193 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:37:19,193 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:37:20,588 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 1.662 seconds (JVM running for 2063.269)
+2022-02-23 21:38:30,595 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16068 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:38:30,596 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:38:30,596 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:39:02,035 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16068 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:39:02,036 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:39:02,036 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:39:53,049 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16068 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:39:53,050 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:39:53,050 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:39:54,428 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 1.736 seconds (JVM running for 2217.11)
+2022-02-23 21:43:33,787 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16068 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:43:33,787 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:43:33,787 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:43:35,141 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 1.623 seconds (JVM running for 2437.823)
+2022-02-23 21:46:34,658 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16068 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:46:34,659 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:46:34,660 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:47:01,518 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 6300 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:47:01,525 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:47:01,525 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:49:33,088 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17496 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:49:33,093 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:49:33,094 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:49:39,152 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 6.636 seconds (JVM running for 8.099)
+2022-02-23 21:50:35,451 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17496 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:50:35,452 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:50:35,452 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:51:25,718 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17496 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:51:25,719 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:51:25,719 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:53:26,562 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17496 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:53:26,562 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:53:26,563 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:53:35,129 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 9012 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:53:35,135 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:53:35,135 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:54:23,042 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15764 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:54:23,048 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:54:23,049 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:55:07,304 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15968 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:55:07,315 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:55:07,316 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:55:37,973 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16300 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:55:37,981 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:55:37,982 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:56:25,796 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 4112 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:56:25,802 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:56:25,803 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:56:32,904 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 7.688 seconds (JVM running for 9.166)
+2022-02-23 21:59:10,772 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 4112 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:59:10,773 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:59:10,773 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 21:59:34,236 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15908 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 21:59:34,241 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 21:59:34,242 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:01:51,814 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 6280 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 22:01:51,820 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 22:01:51,822 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:02:46,591 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 19912 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 22:02:46,597 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 22:02:46,597 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:05:06,595 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17856 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 22:05:06,606 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 22:05:06,606 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:05:39,397 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 20532 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 22:05:39,408 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 22:05:39,408 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:05:49,038 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 10.884 seconds (JVM running for 12.969)
+2022-02-23 22:19:13,697 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 20532 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 22:19:13,698 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 22:19:13,698 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:19:15,118 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 1.694 seconds (JVM running for 819.048)
+2022-02-23 22:19:33,152 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 20532 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 22:19:33,153 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 22:19:33,153 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:20:11,772 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 20532 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 22:20:11,772 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 22:20:11,772 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:20:39,227 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 20248 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 22:20:39,235 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 22:20:39,236 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:24:21,564 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 19576 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 22:24:21,571 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 22:24:21,572 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:30:09,576 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 19720 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 22:30:09,582 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 22:30:09,583 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:37:11,690 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 21288 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 22:37:11,696 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 22:37:11,696 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:38:17,945 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17168 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-23 22:38:17,954 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-23 22:38:17,955 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-23 22:38:25,592 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 8.571 seconds (JVM running for 10.263)
+2022-02-23 22:39:59,306 ERROR c.n.d.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457) [eureka-client-1.10.11.jar:1.10.11]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-23 22:40:00,542 ERROR c.n.d.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) ~[eureka-client-1.10.11.jar:1.10.11]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:395) ~[spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:141) ~[spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1105) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1074) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:171) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1020) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.4.3.jar:2.4.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[?:?]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[?:?]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[?:?]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[?:?]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[?:?]
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[?:?]
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[?:?]
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[?:?]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[?:?]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-24 08:47:06,909 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15280 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 08:47:06,921 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 08:47:06,921 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 08:55:02,720 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 10232 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 08:55:02,730 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 08:55:02,731 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 08:55:11,055 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 9.457 seconds (JVM running for 11.618)
+2022-02-24 09:14:13,245 ERROR c.n.d.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457) [eureka-client-1.10.11.jar:1.10.11]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-24 09:14:21,068 ERROR c.n.d.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) ~[eureka-client-1.10.11.jar:1.10.11]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:395) ~[spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:141) ~[spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1105) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1074) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:171) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1020) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.4.3.jar:2.4.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[?:?]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[?:?]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[?:?]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[?:?]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[?:?]
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[?:?]
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[?:?]
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[?:?]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[?:?]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-24 10:07:17,019 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 12356 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 10:07:17,033 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 10:07:17,034 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 10:07:27,924 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 12.526 seconds (JVM running for 16.186)
+2022-02-24 10:08:47,817 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 12356 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 10:08:47,818 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 10:08:47,818 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 10:08:51,852 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.68 seconds (JVM running for 100.114)
+2022-02-24 10:10:33,227 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-3] Getting total appointment Count : 3
+2022-02-24 10:11:45,875 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 12156 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 10:11:45,890 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 10:11:45,891 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 10:12:00,417 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 15.802 seconds (JVM running for 19.084)
+2022-02-24 10:12:11,670 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-6] Getting total appointment Count : 3
+2022-02-24 10:52:46,901 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 12156 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 10:52:46,903 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 10:52:46,904 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 10:52:51,186 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 5.136 seconds (JVM running for 2469.853)
+2022-02-24 10:53:50,157 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 12156 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 10:53:50,157 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 10:53:50,158 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 10:53:55,229 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 5.639 seconds (JVM running for 2533.896)
+2022-02-24 10:54:36,991 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 12156 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 10:54:36,992 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 10:54:36,992 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 10:54:40,633 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.285 seconds (JVM running for 2579.301)
+2022-02-24 10:57:28,617 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 12156 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 10:57:28,618 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 10:57:28,619 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 10:57:32,083 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.112 seconds (JVM running for 2750.75)
+2022-02-24 10:57:44,741 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 12156 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 10:57:44,743 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 10:57:44,743 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 10:57:48,922 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.803 seconds (JVM running for 2767.589)
+2022-02-24 10:59:44,279 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 12156 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 10:59:44,280 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 10:59:44,280 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 10:59:48,458 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 5.0 seconds (JVM running for 2887.126)
+2022-02-24 11:02:11,403 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 12156 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 11:02:11,404 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 11:02:11,404 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 11:02:14,549 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.825 seconds (JVM running for 3033.216)
+2022-02-24 11:02:51,230 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17248 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 11:02:51,244 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 11:02:51,245 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 11:03:00,969 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 10.929 seconds (JVM running for 14.779)
+2022-02-24 11:09:12,613 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 7772 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 11:09:12,627 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 11:09:12,628 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 11:09:24,488 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 13.036 seconds (JVM running for 16.393)
+2022-02-24 11:27:34,820 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 7772 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 11:27:34,821 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 11:27:34,821 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 11:27:38,913 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.773 seconds (JVM running for 1110.817)
+2022-02-24 11:28:01,839 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 7772 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 11:28:01,840 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 11:28:01,841 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 11:28:05,890 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.814 seconds (JVM running for 1137.794)
+2022-02-24 11:28:56,417 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 7772 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 11:28:56,418 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 11:28:56,419 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 11:29:01,252 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 5.983 seconds (JVM running for 1193.157)
+2022-02-24 11:32:05,063 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 7772 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 11:32:05,064 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 11:32:05,064 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 11:32:09,132 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.711 seconds (JVM running for 1381.037)
+2022-02-24 11:33:56,055 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 11:33:56,071 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 11:33:56,072 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 11:34:07,575 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 12.824 seconds (JVM running for 16.397)
+2022-02-24 12:00:09,399 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:00:09,400 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:00:09,400 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:00:13,006 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.159 seconds (JVM running for 1581.828)
+2022-02-24 12:00:19,212 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:00:19,214 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:00:19,214 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:00:22,213 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.623 seconds (JVM running for 1591.035)
+2022-02-24 12:00:28,614 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:00:28,615 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:00:28,616 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:00:32,403 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.361 seconds (JVM running for 1601.225)
+2022-02-24 12:00:55,956 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:00:55,957 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:00:55,957 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:00:58,760 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.351 seconds (JVM running for 1627.581)
+2022-02-24 12:01:06,306 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:01:06,307 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:01:06,307 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:01:09,313 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.677 seconds (JVM running for 1638.135)
+2022-02-24 12:01:32,435 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:01:32,436 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:01:32,436 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:01:35,888 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.256 seconds (JVM running for 1664.71)
+2022-02-24 12:02:38,107 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:02:38,108 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:02:38,108 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:02:41,765 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.241 seconds (JVM running for 1730.587)
+2022-02-24 12:04:54,882 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:04:54,883 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:04:54,884 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:04:57,554 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.253 seconds (JVM running for 1866.376)
+2022-02-24 12:07:10,527 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:07:10,528 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:07:10,528 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:07:13,595 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.583 seconds (JVM running for 2002.417)
+2022-02-24 12:07:58,788 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:07:58,789 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:07:58,790 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:08:02,176 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.919 seconds (JVM running for 2050.998)
+2022-02-24 12:09:05,680 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:09:05,681 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:09:05,682 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:09:09,964 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.97 seconds (JVM running for 2118.786)
+2022-02-24 12:10:59,477 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:10:59,478 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:10:59,478 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:11:02,926 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.018 seconds (JVM running for 2231.747)
+2022-02-24 12:15:45,972 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17056 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:15:45,973 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:15:45,973 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:15:50,070 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.691 seconds (JVM running for 2518.891)
+2022-02-24 12:17:08,348 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 6456 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:17:08,366 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:17:08,367 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:17:19,501 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 12.789 seconds (JVM running for 17.637)
+2022-02-24 12:21:28,883 INFO c.p.A.C.AppointmentController [http-nio-8082-exec-1] Inside View Prescription Method
+2022-02-24 12:24:04,551 INFO c.p.A.C.AppointmentController [http-nio-8082-exec-4] appointment = Appointment(id=1111, reason=string, date=Thu Feb 24 05:30:00 IST 2022, isRegular=string, isAccepted=true, description=string, patientId=101, doctorId=1)
+2022-02-24 12:25:06,734 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 6456 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:25:06,734 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:25:06,735 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:25:11,577 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 5.5 seconds (JVM running for 489.712)
+2022-02-24 12:26:58,729 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17196 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:26:58,749 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:26:58,751 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:27:11,190 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 13.811 seconds (JVM running for 17.605)
+2022-02-24 12:28:52,459 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 18204 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:28:52,480 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:28:52,481 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:29:05,959 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 15.185 seconds (JVM running for 19.589)
+2022-02-24 12:29:25,234 INFO c.p.A.C.AppointmentController [http-nio-8082-exec-7] Inside View Prescription Method
+2022-02-24 12:43:49,199 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 18204 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:43:49,200 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:43:49,201 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:43:52,050 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.369 seconds (JVM running for 905.68)
+2022-02-24 12:45:40,355 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 18204 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:45:40,355 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:45:40,355 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:45:42,822 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 2.91 seconds (JVM running for 1016.452)
+2022-02-24 12:46:42,059 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 18204 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:46:42,060 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:46:42,060 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:46:44,429 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 2.791 seconds (JVM running for 1078.059)
+2022-02-24 12:46:53,886 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 18204 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:46:53,887 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:46:53,888 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:46:56,681 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.245 seconds (JVM running for 1090.311)
+2022-02-24 12:47:32,009 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 18204 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:47:32,010 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:47:32,010 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:47:34,622 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.04 seconds (JVM running for 1128.252)
+2022-02-24 12:48:41,134 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 18204 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:48:41,135 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:48:41,135 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:48:43,987 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.383 seconds (JVM running for 1197.616)
+2022-02-24 12:51:54,273 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15008 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 12:51:54,286 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 12:51:54,287 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 12:52:01,957 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 8.652 seconds (JVM running for 11.725)
+2022-02-24 12:53:02,564 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-7] Getting total appointment cancelled count :2
+2022-02-24 13:13:58,775 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15008 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 13:13:58,776 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 13:13:58,777 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 13:14:02,212 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.016 seconds (JVM running for 1331.98)
+2022-02-24 13:14:07,590 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15008 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 13:14:07,590 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 13:14:07,591 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 13:14:10,567 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.538 seconds (JVM running for 1340.335)
+2022-02-24 13:14:40,119 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15008 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 13:14:40,119 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 13:14:40,120 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 13:14:42,736 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.184 seconds (JVM running for 1372.504)
+2022-02-24 13:14:51,157 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15008 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 13:14:51,158 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 13:14:51,158 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 13:14:54,125 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.492 seconds (JVM running for 1383.894)
+2022-02-24 13:15:02,605 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15008 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 13:15:02,605 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 13:15:02,606 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 13:15:05,666 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.675 seconds (JVM running for 1395.434)
+2022-02-24 13:16:02,004 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15008 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 13:16:02,005 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 13:16:02,005 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 13:16:05,517 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.06 seconds (JVM running for 1455.285)
+2022-02-24 13:16:57,075 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15008 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 13:16:57,075 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 13:16:57,075 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 13:17:00,037 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.537 seconds (JVM running for 1509.805)
+2022-02-24 13:18:31,202 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15008 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 13:18:31,204 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 13:18:31,205 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 13:18:35,629 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 5.642 seconds (JVM running for 1605.397)
+2022-02-24 13:19:51,518 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15008 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 13:19:51,518 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 13:19:51,519 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 13:19:54,747 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.786 seconds (JVM running for 1684.515)
+2022-02-24 13:21:39,308 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15008 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 13:21:39,309 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 13:21:39,310 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 13:21:43,059 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 4.495 seconds (JVM running for 1792.827)
+2022-02-24 13:22:33,194 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 15008 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 13:22:33,195 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 13:22:33,195 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 13:22:36,204 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 3.693 seconds (JVM running for 1845.972)
+2022-02-24 13:22:51,239 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16140 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 13:22:51,252 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 13:22:51,252 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 13:23:01,346 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 11.26 seconds (JVM running for 14.267)
+2022-02-24 13:57:32,815 ERROR c.n.d.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457) [eureka-client-1.10.11.jar:1.10.11]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-24 13:57:45,985 ERROR c.n.d.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) ~[eureka-client-1.10.11.jar:1.10.11]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:395) ~[spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:141) ~[spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1105) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1074) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:171) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1020) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.4.3.jar:2.4.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[?:?]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[?:?]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[?:?]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[?:?]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[?:?]
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[?:?]
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[?:?]
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[?:?]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[?:?]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-24 16:04:20,035 INFO c.p.A.AppointmentServiceApplicationTests [main] Starting AppointmentServiceApplicationTests using Java 11.0.11 on DIGTBGL-L4366 with PID 12588 (started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 16:04:20,099 DEBUG c.p.A.AppointmentServiceApplicationTests [main] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 16:04:20,104 INFO c.p.A.AppointmentServiceApplicationTests [main] No active profile set, falling back to default profiles: default
+2022-02-24 16:04:45,719 INFO c.p.A.AppointmentServiceApplicationTests [main] Started AppointmentServiceApplicationTests in 27.553 seconds (JVM running for 34.35)
+2022-02-24 16:04:51,926 ERROR c.n.d.DiscoveryClient [SpringContextShutdownHook] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) [eureka-client-1.10.11.jar:1.10.11]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:395) [spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:141) [spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1105) [spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1074) [spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:990) [spring-context-5.3.4.jar:5.3.4]
+2022-02-24 19:34:09,874 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16248 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 19:34:09,888 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 19:34:09,889 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 19:34:20,134 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 11.355 seconds (JVM running for 14.281)
+2022-02-24 20:00:18,557 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16248 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 20:00:18,557 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 20:00:18,558 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 20:00:20,713 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 2.534 seconds (JVM running for 1574.86)
+2022-02-24 20:03:53,920 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 16248 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 20:03:53,921 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 20:03:53,921 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 20:03:56,264 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 2.731 seconds (JVM running for 1790.411)
+2022-02-24 20:26:47,157 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 12112 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 20:26:47,169 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 20:26:47,169 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 20:26:55,386 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 9.203 seconds (JVM running for 11.631)
+2022-02-24 20:29:34,876 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-10] Getting total appointment Count : 3
+2022-02-24 20:33:27,099 ERROR c.n.d.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457) [eureka-client-1.10.11.jar:1.10.11]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-24 20:33:59,170 ERROR c.n.d.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457) [eureka-client-1.10.11.jar:1.10.11]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-24 20:34:31,244 ERROR c.n.d.DiscoveryClient [DiscoveryClient-HeartbeatExecutor-0] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - was unable to send heartbeat!
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$3.execute(EurekaHttpClientDecorator.java:92) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.sendHeartBeat(EurekaHttpClientDecorator.java:89) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.renew(DiscoveryClient.java:893) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient$HeartbeatThread.run(DiscoveryClient.java:1457) [eureka-client-1.10.11.jar:1.10.11]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515) [?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-24 20:34:37,359 ERROR c.n.d.DiscoveryClient [RMI TCP Connection(2)-127.0.0.1] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) ~[eureka-client-1.10.11.jar:1.10.11]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:395) ~[spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:141) ~[spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145) ~[spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1105) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1074) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.doClose(ServletWebServerApplicationContext.java:171) ~[spring-boot-2.4.3.jar:2.4.3]
+	at org.springframework.context.support.AbstractApplicationContext.close(AbstractApplicationContext.java:1020) ~[spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.boot.admin.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin.shutdown(SpringApplicationAdminMXBeanRegistrar.java:160) ~[spring-boot-2.4.3.jar:2.4.3]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.reflect.misc.Trampoline.invoke(MethodUtil.java:71) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.reflect.misc.MethodUtil.invoke(MethodUtil.java:260) ~[?:?]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:193) ~[?:?]
+	at com.sun.jmx.mbeanserver.ConvertingMethod.invokeWithOpenReturn(ConvertingMethod.java:175) ~[?:?]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:117) ~[?:?]
+	at com.sun.jmx.mbeanserver.MXBeanIntrospector.invokeM2(MXBeanIntrospector.java:54) ~[?:?]
+	at com.sun.jmx.mbeanserver.MBeanIntrospector.invokeM(MBeanIntrospector.java:237) ~[?:?]
+	at com.sun.jmx.mbeanserver.PerInterface.invoke(PerInterface.java:138) ~[?:?]
+	at com.sun.jmx.mbeanserver.MBeanSupport.invoke(MBeanSupport.java:252) ~[?:?]
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:809) ~[?:?]
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.doOperation(RMIConnectionImpl.java:1466) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl$PrivilegedOperation.run(RMIConnectionImpl.java:1307) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.doPrivilegedOperation(RMIConnectionImpl.java:1399) ~[?:?]
+	at javax.management.remote.rmi.RMIConnectionImpl.invoke(RMIConnectionImpl.java:827) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at sun.rmi.server.UnicastServerRef.dispatch(UnicastServerRef.java:359) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:200) ~[?:?]
+	at sun.rmi.transport.Transport$1.run(Transport.java:197) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.Transport.serviceCall(Transport.java:196) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport.handleMessages(TCPTransport.java:562) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run0(TCPTransport.java:796) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.lambda$run$0(TCPTransport.java:677) ~[?:?]
+	at java.security.AccessController.doPrivileged(Native Method) ~[?:?]
+	at sun.rmi.transport.tcp.TCPTransport$ConnectionHandler.run(TCPTransport.java:676) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at java.lang.Thread.run(Thread.java:834) [?:?]
+2022-02-24 20:40:18,368 INFO c.p.A.AppointmentServiceApplicationTests [main] Starting AppointmentServiceApplicationTests using Java 11.0.11 on DIGTBGL-L4366 with PID 16584 (started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 20:40:18,390 DEBUG c.p.A.AppointmentServiceApplicationTests [main] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 20:40:18,392 INFO c.p.A.AppointmentServiceApplicationTests [main] No active profile set, falling back to default profiles: default
+2022-02-24 20:40:38,861 INFO c.p.A.AppointmentServiceApplicationTests [main] Started AppointmentServiceApplicationTests in 21.949 seconds (JVM running for 27.062)
+2022-02-24 20:40:45,055 ERROR c.n.d.DiscoveryClient [SpringContextShutdownHook] DiscoveryClient_APPOINTMENT-SERVICE/DIGTBGL-L4366.godigit.corp:APPOINTMENT-SERVICE:8082 - de-registration failedCannot execute request on any known server
+com.netflix.discovery.shared.transport.TransportException: Cannot execute request on any known server
+	at com.netflix.discovery.shared.transport.decorator.RetryableEurekaHttpClient.execute(RetryableEurekaHttpClient.java:112) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator$2.execute(EurekaHttpClientDecorator.java:74) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.SessionedEurekaHttpClient.execute(SessionedEurekaHttpClient.java:77) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.shared.transport.decorator.EurekaHttpClientDecorator.cancel(EurekaHttpClientDecorator.java:71) ~[eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.unregister(DiscoveryClient.java:972) [eureka-client-1.10.11.jar:1.10.11]
+	at com.netflix.discovery.DiscoveryClient.shutdown(DiscoveryClient.java:948) [eureka-client-1.10.11.jar:1.10.11]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleElement.invoke(InitDestroyAnnotationBeanPostProcessor.java:389) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor$LifecycleMetadata.invokeDestroyMethods(InitDestroyAnnotationBeanPostProcessor.java:347) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.annotation.InitDestroyAnnotationBeanPostProcessor.postProcessBeforeDestruction(InitDestroyAnnotationBeanPostProcessor.java:177) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:184) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.run(DisposableBeanAdapter.java:177) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.cloud.context.scope.GenericScope$BeanLifecycleWrapper.destroy(GenericScope.java:395) [spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.cloud.context.scope.GenericScope.destroy(GenericScope.java:141) [spring-cloud-context-3.0.1.jar:3.0.1]
+	at org.springframework.beans.factory.support.DisposableBeanAdapter.destroy(DisposableBeanAdapter.java:200) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroyBean(DefaultSingletonBeanRegistry.java:587) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingleton(DefaultSingletonBeanRegistry.java:559) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingleton(DefaultListableBeanFactory.java:1152) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.destroySingletons(DefaultSingletonBeanRegistry.java:520) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.destroySingletons(DefaultListableBeanFactory.java:1145) [spring-beans-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.destroyBeans(AbstractApplicationContext.java:1105) [spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext.doClose(AbstractApplicationContext.java:1074) [spring-context-5.3.4.jar:5.3.4]
+	at org.springframework.context.support.AbstractApplicationContext$1.run(AbstractApplicationContext.java:990) [spring-context-5.3.4.jar:5.3.4]
+2022-02-24 20:52:02,724 INFO c.p.A.AppointmentServiceApplication [restartedMain] Starting AppointmentServiceApplication using Java 11.0.11 on DIGTBGL-L4366 with PID 17600 (D:\FinalTrainingProject\appointment-service\target\classes started by SK.Arif in D:\FinalTrainingProject\appointment-service)
+2022-02-24 20:52:02,736 DEBUG c.p.A.AppointmentServiceApplication [restartedMain] Running with Spring Boot v2.4.3, Spring v5.3.4
+2022-02-24 20:52:02,737 INFO c.p.A.AppointmentServiceApplication [restartedMain] No active profile set, falling back to default profiles: default
+2022-02-24 20:52:11,952 INFO c.p.A.AppointmentServiceApplication [restartedMain] Started AppointmentServiceApplication in 10.287 seconds (JVM running for 12.892)
+2022-02-24 20:52:41,419 DEBUG c.p.A.C.AppointmentController [http-nio-8082-exec-1] Getting total appointment Count : 3

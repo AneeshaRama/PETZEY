@@ -1,0 +1,145 @@
+.container{
+    padding:1rem;
+    padding-right:2rem;    
+}
+.header_container{
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9rem;
+    border-bottom: 1px solid rgb(177, 176, 176);
+    padding-right: 10.5rem;
+}
+.header_right{
+    padding:2rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.button{
+    border:none;
+    padding:0.3rem 0.5rem;
+    font-size: 0.6rem;
+    margin-left: 0.8rem;
+    border-radius: 0.3rem;
+    font-weight: 550;
+    background-color: #fff;
+    cursor: pointer;
+}
+.profile_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    padding-right: 12rem;
+    margin-top: 0.5rem;
+}
+.left_profile_container{
+    width:30rem;
+    height:12rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    padding:1rem;
+    display: flex;
+    justify-content: space-between;
+   padding-right: 3rem;
+}
+.right_profile_container{
+    width: 20rem;
+    height:12rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    padding:2rem;
+}
+.appointment_report_header{
+    margin-top: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1rem;
+    padding-right: 12rem;
+    border-bottom: 1px solid rgb(177, 176, 176);
+}
+.appointment_report_container{
+    padding:1rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+.right_appointment_report_container{
+    padding:1rem;
+}
+.left_appointment_report_container{
+    padding: 1rem;
+    padding-right: 15rem;
+}
+.prescription_container{
+    width:23rem;
+    height:25rem;
+    background-color: #fff;   
+    border-radius: 0.3rem; 
+    padding:1.5rem;
+}
+.clinic_container{
+    margin-top: 1rem;
+    width:23rem;
+    height:10rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    padding:1rem;
+}
+.vital_container{
+    width:28rem;
+    height:11rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    padding:1rem;
+}
+.symptoms_container{
+    margin-top:1rem;
+    width:28rem;
+    height:6rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    padding:1rem;
+}
+.test_container{
+    margin-top:1rem;
+    width:28rem;
+    height:6rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    padding:1rem;
+}
+.doctor_recommend_container{
+    margin-top: 1rem;
+    width:28rem;
+    height:10rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    padding:1rem;
+}
+.comment_container{
+    margin-top: 0.5rem;
+    margin-left: 2rem;
+    padding: 1rem;
+    width:53rem;
+    height:10rem;
+    background-color: #fff;
+    border-radius: 0.3rem;
+    padding:1rem;
+}
+.dog_profile{
+    padding:1rem
+}
+.owner_profile{
+    padding:1rem;
+   
+}
+.bottom_vital_container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 2.5rem;
+}

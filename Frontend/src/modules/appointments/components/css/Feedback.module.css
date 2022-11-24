@@ -1,0 +1,32 @@
+.modal_container{
+    top:20%;
+    left: 40%;
+    position: absolute;
+    background-color: white;
+    width:23rem;
+    min-height: 15rem;
+    border-radius: 0.3rem;
+    z-index: 20;
+    padding-top: 1rem;
+}
+
+.feedback_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:1rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
+}
+.button{
+    border:none;
+    border-radius: 0.3rem;
+    background-color: #fd3f00;
+    padding:0.4rem 3rem;
+    margin-top: 1rem;
+    font-size: 0.7rem;
+    font-weight: 550;
+    color:white;
+    cursor: pointer;
+}

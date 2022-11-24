@@ -1,0 +1,29 @@
+server:
+  port: 8092
+  servlet:
+    context-path: /patient
+
+eureka:
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: https://service.learn.skillassure.com/eurekaserver/eureka
+
+  instance:
+    preferIpAddress: true
+
+spring:
+  application:
+    name: PET-SERVICE
+
+
+swagger:
+  productionURL: https://patient.learn.skillassure.com/patient
+
+rest:
+  appointmentService: https://appointments.learn.skillassure.com/appointment 
+  settingService: https://settings.learn.skillassure.com/settings
+
+
+
